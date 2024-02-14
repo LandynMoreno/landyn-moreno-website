@@ -271,6 +271,7 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    display: block;
 }
 
 .about-details-container {
@@ -387,6 +388,7 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    padding-top: 10rem;
 }
 
 .contact-info-upper-container {
