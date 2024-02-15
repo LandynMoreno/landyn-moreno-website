@@ -115,7 +115,6 @@ nav {
 
 .menu-links li {
     list-style: none;
-
 }
 
 .menu-links.open {
@@ -175,6 +174,14 @@ section {
     width: 400px;
     margin: auto 0;
 }
+
+.profile-pic-container img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* This will cover the container with the image without stretching it */
+    border-radius: 50%; /* This makes the image round */
+}
+
 
 
 .section__text {
@@ -287,6 +294,38 @@ section {
     border-radius: 2rem;
 }
 
+.details-container li {
+    list-style-position: inside;
+    font-size: small;
+    padding-top: 0.5rem;
+}
+
+.education-text {
+    padding-top: 0.3rem;
+}
+
+.school {
+    font-size:medium;
+    font-weight: 900;
+    color: black;
+}
+
+.degree {
+    display: inline-flex;
+    padding-top: 1.25rem;
+    font-size: small;
+    font-style: oblique;
+}
+
+.experience-list-item {
+    display:block;
+}
+
+.experience-list-item p {
+    font-style: oblique;
+    font-size: smaller;
+}
+
 .arrow {
     position: absolute;
     right: -5rem;
@@ -318,6 +357,8 @@ section {
 
 #experience {
     position: relative;
+    height: fit-content;
+    width: fit-content;
 }
 
 .experience-sub-title {
@@ -358,6 +399,7 @@ article .icon {
 
 #projects {
     position: relative;
+    height:fit-content;
 }
 
 .color-container {
@@ -388,7 +430,6 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
-    padding-top: 10rem;
 }
 
 .contact-info-upper-container {
