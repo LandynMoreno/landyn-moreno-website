@@ -42,6 +42,12 @@
     .about-containers {
         margin-top: 0;
     }
+    .profile-pic-container img {
+        width: 50vw; /* Ensure the image fills the container */
+        height: 25vh; /* Ensure the image fills the container */
+        object-fit: cover; /* This will cover the container with the image without stretching it */
+        border-radius: 50%; /* This makes the image round */
+    }
 }
 
 @media screen and (max-width: 600px) {
